@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+table {
+  border-collapse: separate;
+  margin: auto;
+  table-layout: fixed;
+  width: 400px;
+  height: 400px;
+}
+table:before {
+  padding-top: 80%;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+  height: 20%;
+}
